@@ -1028,9 +1028,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     PiePaginaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: PiePaginaComponent,
       selectors: [["app-pie-pagina"]],
-      decls: 15,
+      decls: 16,
       vars: 0,
-      consts: [[1, "container-fluid", "mainblock-pie"], [1, "container"], [1, "row"], [1, "col-md-4"], ["src", "assets/images/Grupo 4.png", "width", "146"], [1, "col-md-4", "text-center"], [1, "fas", "fa-phone-alt", 2, "font-size", "3.3rem"], [1, "fas", "fa-envelope"], [1, "row", "justify-content-md-center", "piefirma"], [1, "col"]],
+      consts: [[1, "container-fluid", "mainblock-pie"], [1, "container"], [1, "row"], [1, "col-md-3"], ["src", "assets/images/Grupo 4.png", "width", "146"], [1, "col-md-6", "text-center"], [1, "fas", "fa-phone-alt", 2, "font-size", "3.3rem"], [1, "fas", "fa-envelope"], [1, "row", "justify-content-md-center", "piefirma"], [1, "col"]],
       template: function PiePaginaComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1065,15 +1065,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "div", 3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Comunidad Evolutiva 2020 Todos los derechos reservados . 2020 ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Comunidad Evolutiva 2020 Todos los derechos reservados . 2020 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1150,7 +1152,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-seccion-beneficios"]],
       decls: 107,
       vars: 0,
-      consts: [[1, "container-fluid", "mainblock-beneficios"], [1, "container"], [1, "row"], [1, "col-md-4"], [1, "col-md-2"], [1, "col"], [1, "fas", "fa-check-circle"], [1, "col-md-8"], [1, "container", "card-mapa"], ["src", "assets/images/mapa2.png", 2, "width", "100%"], [1, "row", "justify-content-md-center"], [1, "col-md-5"]],
+      consts: [[1, "container-fluid", "mainblock-beneficios"], [1, "container"], [1, "row"], [1, "col-md-4"], [1, "col-md-2"], [1, "col"], [1, "fas", "fa-check-circle"], [1, "col-md-8"], [1, "container", "card-mapa"], ["src", "assets/images/mapa2.png", 2, "width", "100%"], [1, "row", "justify-content-md-center"], [1, "col-md-6"]],
       template: function SeccionBeneficiosComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
