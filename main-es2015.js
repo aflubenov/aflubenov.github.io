@@ -117,6 +117,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/carousel/carousel.component */ "./src/app/components/carousel/carousel.component.ts");
 /* harmony import */ var _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/seccion-proyecto/seccion-proyecto.component */ "./src/app/components/seccion-proyecto/seccion-proyecto.component.ts");
 /* harmony import */ var _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/seccion-mapa/seccion-mapa.component */ "./src/app/components/seccion-mapa/seccion-mapa.component.ts");
+/* harmony import */ var _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/seccion-filosofia/seccion-filosofia.component */ "./src/app/components/seccion-filosofia/seccion-filosofia.component.ts");
+/* harmony import */ var _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/seccion-beneficios/seccion-beneficios.component */ "./src/app/components/seccion-beneficios/seccion-beneficios.component.ts");
+/* harmony import */ var _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component */ "./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts");
+/* harmony import */ var _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pie-pagina/pie-pagina.component */ "./src/app/components/pie-pagina/pie-pagina.component.ts");
+
+
+
+
 
 
 
@@ -141,7 +149,11 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _components_logoymenu_logoymenu_component__WEBPACK_IMPORTED_MODULE_6__["LogoymenuComponent"],
         _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_7__["CarouselComponent"],
         _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_8__["SeccionProyectoComponent"],
-        _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_9__["SeccionMapaComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_9__["SeccionMapaComponent"],
+        _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_10__["SeccionFilosofiaComponent"],
+        _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__["SeccionBeneficiosComponent"],
+        _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__["SeccionServiciosyDiferencialesComponent"],
+        _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
@@ -153,7 +165,11 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _components_logoymenu_logoymenu_component__WEBPACK_IMPORTED_MODULE_6__["LogoymenuComponent"],
                     _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_7__["CarouselComponent"],
                     _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_8__["SeccionProyectoComponent"],
-                    _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_9__["SeccionMapaComponent"]
+                    _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_9__["SeccionMapaComponent"],
+                    _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_10__["SeccionFilosofiaComponent"],
+                    _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__["SeccionBeneficiosComponent"],
+                    _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__["SeccionServiciosyDiferencialesComponent"],
+                    _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -483,6 +499,339 @@ LogoymenuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
+/***/ "./src/app/components/pie-pagina/pie-pagina.component.ts":
+/*!***************************************************************!*\
+  !*** ./src/app/components/pie-pagina/pie-pagina.component.ts ***!
+  \***************************************************************/
+/*! exports provided: PiePaginaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PiePaginaComponent", function() { return PiePaginaComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class PiePaginaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+PiePaginaComponent.ɵfac = function PiePaginaComponent_Factory(t) { return new (t || PiePaginaComponent)(); };
+PiePaginaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PiePaginaComponent, selectors: [["app-pie-pagina"]], decls: 15, vars: 0, consts: [[1, "container-fluid", "mainblock-pie"], [1, "container"], [1, "row"], [1, "col-md-4"], ["src", "assets/images/Grupo 4.png", "width", "146"], [1, "col-md-4", "text-center"], [1, "fas", "fa-phone-alt", 2, "font-size", "3.3rem"], [1, "fas", "fa-envelope"], [1, "row", "justify-content-md-center", "piefirma"], [1, "col"]], template: function PiePaginaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " 3416 186 224");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " cepe.barrioabierto@gmail.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Comunidad Evolutiva 2020 Todos los derechos reservados . 2020 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGllLXBhZ2luYS9waWUtcGFnaW5hLmNvbXBvbmVudC5zY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PiePaginaComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-pie-pagina',
+                templateUrl: './pie-pagina.component.html',
+                styleUrls: ['./pie-pagina.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/components/seccion-beneficios/seccion-beneficios.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/components/seccion-beneficios/seccion-beneficios.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: SeccionBeneficiosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeccionBeneficiosComponent", function() { return SeccionBeneficiosComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class SeccionBeneficiosComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SeccionBeneficiosComponent.ɵfac = function SeccionBeneficiosComponent_Factory(t) { return new (t || SeccionBeneficiosComponent)(); };
+SeccionBeneficiosComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SeccionBeneficiosComponent, selectors: [["app-seccion-beneficios"]], decls: 107, vars: 0, consts: [[1, "container-fluid", "mainblock-beneficios"], [1, "container"], [1, "row"], [1, "col-md-4"], [1, "col-md-2"], [1, "col"], [1, "fas", "fa-check-circle"], [1, "col-md-8"], [1, "container", "card-mapa"], ["src", "assets/images/mapa2.png", 2, "width", "100%"], [1, "row", "justify-content-md-center"], [1, "col-md-5"]], template: function SeccionBeneficiosComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Beneficios de vivir en Comunidad Evolutiva");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Mayor calidad ambiental.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Parte de un gran movimiento que apuesta al futuro.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Macroeconom\u00EDa interna.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Consumo responsable.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Cuidado del medio ambiente.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Intendencia de servicios.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Generaci\u00F3n de energ\u00EDa.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Huertas comunitarias.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "1.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, " Ingresos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "2.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " P\u00F3rtico");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "3.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Parque Agroecol\u00F3gico");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "4.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, " \u00C1rea Paseo Comercial A Cielo Abierto");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "5.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " \u00C1rea Corporativa");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "6.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, " \u00C1rea Semiproductiva Comercial");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "7.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " \u00C1rea Reservada Para Proyecto Especial");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "8.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, " \u00C1rea Comercial Barrial");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "9.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " Parque Frutal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "10.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Parque Lineal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "11.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, " Huertas Urbanas");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "12.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " Invernaderos Y Feria Cadena Corta");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "13.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, " Eco Centro");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "14.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, " Lotes Verdes");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "15.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, " Reservorios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "mark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "16.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, " \u00C1rea Deportiva");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2VjY2lvbi1iZW5lZmljaW9zL3NlY2Npb24tYmVuZWZpY2lvcy5jb21wb25lbnQuc2NzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SeccionBeneficiosComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-seccion-beneficios',
+                templateUrl: './seccion-beneficios.component.html',
+                styleUrls: ['./seccion-beneficios.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/components/seccion-filosofia/seccion-filosofia.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/components/seccion-filosofia/seccion-filosofia.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: SeccionFilosofiaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeccionFilosofiaComponent", function() { return SeccionFilosofiaComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class SeccionFilosofiaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SeccionFilosofiaComponent.ɵfac = function SeccionFilosofiaComponent_Factory(t) { return new (t || SeccionFilosofiaComponent)(); };
+SeccionFilosofiaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SeccionFilosofiaComponent, selectors: [["app-seccion-filosofia"]], decls: 34, vars: 0, consts: [[1, "container-fluid", "mainblock-filosofia"], [1, "row"], [1, "col-md-5", "bgGranja"], [1, "col-md-7", "text-content"], [1, "container"], [1, "col-md-1"], [1, "col"], [1, "col-md-9"]], template: function SeccionFilosofiaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Filosof\u00EDa de barrio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "La evoluci\u00F3n nos exige crear nuevas formas de vivir, de trabajar, de producir, de consumir y de compartir en comunidad y estos cambios a su vez requieren de necesidades y contextos espec\u00EDficos para alcanzar nuevas metas. La misi\u00F3n de Comunidad Evolutiva es permitir espacios propicios e impulsores de un proyecto social superador. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Apoyamos el programa de ciudadano Prosumidor (productor + consumidor), una iniciativa del gobierno provincial que permite a todos los usuarios de la Empresa Provincial de la Energ\u00EDa (EPE) y cooperativas el\u00E9ctricas adheridas, producir energ\u00EDa a partir de fuentes renovables e inyectarla a la red. La energ\u00EDa que generen los usuarios tendr\u00E1n un reconocimiento econ\u00F3mico que permitir\u00E1 ahorrar en la factura de luz y recuperar en pocos a\u00F1os la inversi\u00F3n hecha en tu equipo. * ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "En Comunidad Evolutiva cada habitante del barrio tiene la posibilidad y el contexto necesario para generar su propia producci\u00F3n de alimentos, energ\u00EDa y productos agroecol\u00F3gicos, aportando a un sistema m\u00E1s saludable, limpio y econ\u00F3micamente sustentable pudiendo convertirse en abastecedores internos y externos. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Contamos con el acompa\u00F1amiento de ONGs orientadas a promover estas gestiones acompa\u00F1ando a los habitantes a impulsar sus propias producciones.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2VjY2lvbi1maWxvc29maWEvc2VjY2lvbi1maWxvc29maWEuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SeccionFilosofiaComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-seccion-filosofia',
+                templateUrl: './seccion-filosofia.component.html',
+                styleUrls: ['./seccion-filosofia.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "./src/app/components/seccion-mapa/seccion-mapa.component.ts":
 /*!*******************************************************************!*\
   !*** ./src/app/components/seccion-mapa/seccion-mapa.component.ts ***!
@@ -731,6 +1080,178 @@ SeccionProyectoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
 
 /***/ }),
 
+/***/ "./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts":
+/*!***********************************************************************************************************!*\
+  !*** ./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts ***!
+  \***********************************************************************************************************/
+/*! exports provided: SeccionServiciosyDiferencialesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeccionServiciosyDiferencialesComponent", function() { return SeccionServiciosyDiferencialesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class SeccionServiciosyDiferencialesComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SeccionServiciosyDiferencialesComponent.ɵfac = function SeccionServiciosyDiferencialesComponent_Factory(t) { return new (t || SeccionServiciosyDiferencialesComponent)(); };
+SeccionServiciosyDiferencialesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SeccionServiciosyDiferencialesComponent, selectors: [["app-seccion-serviciosy-diferenciales"]], decls: 99, vars: 0, consts: [[1, "container-fluid", "mainblock-servicios"], [1, "container"], [1, "row"], [1, "col-md-1"], [1, "row", "seccion-servicios"], [1, "col-md-3"], ["src", "assets/images/casino-cctv.png"], ["src", "assets/images/alarm.png"], ["src", "assets/images/speedometer.png"], ["src", "assets/images/water-tap.png"], ["src", "assets/images/road.png"], ["src", "assets/images/forest.png"], ["src", "assets/images/wireless-router.png"], ["src", "assets/images/electricity-tower.png"], ["src", "assets/images/car.png"], ["src", "assets/images/lamp.png"], ["src", "assets/images/road2.png"], [1, "col"], [1, "row", "seccion-diferenciales", "justify-content-md-center"], [1, "col-md-5"], [1, "fas", "fa-arrow-down"], [1, "col-md-2"]], template: function SeccionServiciosyDiferencialesComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Servicios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Seguridad");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Alarma");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Velocidad controlada");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Agua potable");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Cord\u00F3n cuneta");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Forestaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Wifi");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Red de media");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Ripio estabilizado");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Alumbrado");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "img", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Asfalto");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Diferenciales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "HUERTA COMUNITARIA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "PARQUE AGROECOL\u00D3GICO");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "ECOCENTRO");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "\u00C1REA DEPORTIVA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "PUESTOS SOLARES");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "GARITA ECO");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "\u00C1REA COMERCIAL");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "\u00C1REA CORPORATIVA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](89, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "PLAZA CULTURAL");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](92, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "CIRCUITO VERDE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "PUESTOS DE RECICLADO");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "i", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2VjY2lvbi1zZXJ2aWNpb3N5LWRpZmVyZW5jaWFsZXMvc2VjY2lvbi1zZXJ2aWNpb3N5LWRpZmVyZW5jaWFsZXMuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SeccionServiciosyDiferencialesComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-seccion-serviciosy-diferenciales',
+                templateUrl: './seccion-serviciosy-diferenciales.component.html',
+                styleUrls: ['./seccion-serviciosy-diferenciales.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "./src/app/pages/start/start.component.ts":
 /*!************************************************!*\
   !*** ./src/app/pages/start/start.component.ts ***!
@@ -746,6 +1267,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/carousel/carousel.component */ "./src/app/components/carousel/carousel.component.ts");
 /* harmony import */ var _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/seccion-proyecto/seccion-proyecto.component */ "./src/app/components/seccion-proyecto/seccion-proyecto.component.ts");
 /* harmony import */ var _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/seccion-mapa/seccion-mapa.component */ "./src/app/components/seccion-mapa/seccion-mapa.component.ts");
+/* harmony import */ var _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/seccion-filosofia/seccion-filosofia.component */ "./src/app/components/seccion-filosofia/seccion-filosofia.component.ts");
+/* harmony import */ var _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/seccion-beneficios/seccion-beneficios.component */ "./src/app/components/seccion-beneficios/seccion-beneficios.component.ts");
+/* harmony import */ var _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component */ "./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts");
+/* harmony import */ var _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/pie-pagina/pie-pagina.component */ "./src/app/components/pie-pagina/pie-pagina.component.ts");
+
+
+
+
 
 
 
@@ -758,12 +1287,16 @@ class StartComponent {
     }
 }
 StartComponent.ɵfac = function StartComponent_Factory(t) { return new (t || StartComponent)(); };
-StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartComponent, selectors: [["app-start"]], decls: 4, vars: 0, template: function StartComponent_Template(rf, ctx) { if (rf & 1) {
+StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartComponent, selectors: [["app-start"]], decls: 8, vars: 0, template: function StartComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-encabezado");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-carousel");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-seccion-proyecto");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-seccion-mapa");
-    } }, directives: [_components_encabezado_encabezado_component__WEBPACK_IMPORTED_MODULE_1__["EncabezadoComponent"], _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_2__["CarouselComponent"], _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_3__["SeccionProyectoComponent"], _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_4__["SeccionMapaComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5zY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-seccion-filosofia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "app-seccion-beneficios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-seccion-serviciosy-diferenciales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-pie-pagina");
+    } }, directives: [_components_encabezado_encabezado_component__WEBPACK_IMPORTED_MODULE_1__["EncabezadoComponent"], _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_2__["CarouselComponent"], _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_3__["SeccionProyectoComponent"], _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_4__["SeccionMapaComponent"], _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_5__["SeccionFilosofiaComponent"], _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_6__["SeccionBeneficiosComponent"], _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_7__["SeccionServiciosyDiferencialesComponent"], _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_8__["PiePaginaComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5zY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StartComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
