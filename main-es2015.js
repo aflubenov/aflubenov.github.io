@@ -121,6 +121,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/seccion-beneficios/seccion-beneficios.component */ "./src/app/components/seccion-beneficios/seccion-beneficios.component.ts");
 /* harmony import */ var _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component */ "./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts");
 /* harmony import */ var _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pie-pagina/pie-pagina.component */ "./src/app/components/pie-pagina/pie-pagina.component.ts");
+/* harmony import */ var _components_seccion_sita_seccion_sita_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/seccion-sita/seccion-sita.component */ "./src/app/components/seccion-sita/seccion-sita.component.ts");
+
 
 
 
@@ -153,7 +155,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_10__["SeccionFilosofiaComponent"],
         _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__["SeccionBeneficiosComponent"],
         _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__["SeccionServiciosyDiferencialesComponent"],
-        _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"],
+        _components_seccion_sita_seccion_sita_component__WEBPACK_IMPORTED_MODULE_14__["SeccionSitaComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
@@ -169,7 +172,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_10__["SeccionFilosofiaComponent"],
                     _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_11__["SeccionBeneficiosComponent"],
                     _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_12__["SeccionServiciosyDiferencialesComponent"],
-                    _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"]
+                    _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_13__["PiePaginaComponent"],
+                    _components_seccion_sita_seccion_sita_component__WEBPACK_IMPORTED_MODULE_14__["SeccionSitaComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -1253,6 +1257,79 @@ SeccionServiciosyDiferencialesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_
 
 /***/ }),
 
+/***/ "./src/app/components/seccion-sita/seccion-sita.component.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/components/seccion-sita/seccion-sita.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: SeccionSitaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeccionSitaComponent", function() { return SeccionSitaComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class SeccionSitaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SeccionSitaComponent.ɵfac = function SeccionSitaComponent_Factory(t) { return new (t || SeccionSitaComponent)(); };
+SeccionSitaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SeccionSitaComponent, selectors: [["app-seccion-sita"]], decls: 25, vars: 0, consts: [[1, "container-fluid", "mainblock-sita"], [1, "container"], [1, "row"], [1, "col-md-5"], [1, "col-md-7"], [1, "col-md-1"], [1, "col-md-9"], [1, "blockquote", "text-left"], [1, "decorator"], [1, "fas", "fa-quote-left"], [1, "mb-0"], [1, "blockquote-footer"], ["title", "Source Title"]], template: function SeccionSitaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "CONFORT, AMENITIES Y EL CUIDADO DEL MEDIO AMBIENTE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "blockquote", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Como desarrolladores inmobiliarios, buscamos generar proyectos sustentables en donde el confort, los amenities y el cuidado del medio ambiente sean los ejes principales. Tenemos la intenci\u00F3n de ofrecer verdaderas soluciones de vivienda para que la gente pueda acceder a la vida que siempre so\u00F1aron. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Conectamos a la poblaci\u00F3n con nuevas oportunidades.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "footer", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "cite", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Roma Management.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2VjY2lvbi1zaXRhL3NlY2Npb24tc2l0YS5jb21wb25lbnQuc2NzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SeccionSitaComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-seccion-sita',
+                templateUrl: './seccion-sita.component.html',
+                styleUrls: ['./seccion-sita.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "./src/app/pages/start/start.component.ts":
 /*!************************************************!*\
   !*** ./src/app/pages/start/start.component.ts ***!
@@ -1271,7 +1348,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/seccion-filosofia/seccion-filosofia.component */ "./src/app/components/seccion-filosofia/seccion-filosofia.component.ts");
 /* harmony import */ var _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/seccion-beneficios/seccion-beneficios.component */ "./src/app/components/seccion-beneficios/seccion-beneficios.component.ts");
 /* harmony import */ var _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component */ "./src/app/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts");
-/* harmony import */ var _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/pie-pagina/pie-pagina.component */ "./src/app/components/pie-pagina/pie-pagina.component.ts");
+/* harmony import */ var _components_seccion_sita_seccion_sita_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/seccion-sita/seccion-sita.component */ "./src/app/components/seccion-sita/seccion-sita.component.ts");
+/* harmony import */ var _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/pie-pagina/pie-pagina.component */ "./src/app/components/pie-pagina/pie-pagina.component.ts");
+
 
 
 
@@ -1288,7 +1367,7 @@ class StartComponent {
     }
 }
 StartComponent.ɵfac = function StartComponent_Factory(t) { return new (t || StartComponent)(); };
-StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartComponent, selectors: [["app-start"]], decls: 8, vars: 0, template: function StartComponent_Template(rf, ctx) { if (rf & 1) {
+StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartComponent, selectors: [["app-start"]], decls: 9, vars: 0, template: function StartComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-encabezado");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-carousel");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-seccion-proyecto");
@@ -1296,8 +1375,9 @@ StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-seccion-filosofia");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "app-seccion-beneficios");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-seccion-serviciosy-diferenciales");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-pie-pagina");
-    } }, directives: [_components_encabezado_encabezado_component__WEBPACK_IMPORTED_MODULE_1__["EncabezadoComponent"], _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_2__["CarouselComponent"], _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_3__["SeccionProyectoComponent"], _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_4__["SeccionMapaComponent"], _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_5__["SeccionFilosofiaComponent"], _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_6__["SeccionBeneficiosComponent"], _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_7__["SeccionServiciosyDiferencialesComponent"], _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_8__["PiePaginaComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5zY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-seccion-sita");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-pie-pagina");
+    } }, directives: [_components_encabezado_encabezado_component__WEBPACK_IMPORTED_MODULE_1__["EncabezadoComponent"], _components_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_2__["CarouselComponent"], _components_seccion_proyecto_seccion_proyecto_component__WEBPACK_IMPORTED_MODULE_3__["SeccionProyectoComponent"], _components_seccion_mapa_seccion_mapa_component__WEBPACK_IMPORTED_MODULE_4__["SeccionMapaComponent"], _components_seccion_filosofia_seccion_filosofia_component__WEBPACK_IMPORTED_MODULE_5__["SeccionFilosofiaComponent"], _components_seccion_beneficios_seccion_beneficios_component__WEBPACK_IMPORTED_MODULE_6__["SeccionBeneficiosComponent"], _components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_7__["SeccionServiciosyDiferencialesComponent"], _components_seccion_sita_seccion_sita_component__WEBPACK_IMPORTED_MODULE_8__["SeccionSitaComponent"], _components_pie_pagina_pie_pagina_component__WEBPACK_IMPORTED_MODULE_9__["PiePaginaComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5zY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StartComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
