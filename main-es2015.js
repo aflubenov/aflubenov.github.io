@@ -192,9 +192,15 @@ class BarraInfoComponent {
     }
     ngOnInit() {
     }
+    enviarMensaje() {
+        let element = document.createElement("a");
+        element.href = this.carritoservice.getMensajeWsapp();
+        element.target = "_blank";
+        element.click();
+    }
 }
 BarraInfoComponent.ɵfac = function BarraInfoComponent_Factory(t) { return new (t || BarraInfoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_carrito_service__WEBPACK_IMPORTED_MODULE_1__["CarritoService"])); };
-BarraInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarraInfoComponent, selectors: [["app-barra-info"]], decls: 12, vars: 1, consts: [[1, "container-fluid", "barrainformativa"], [1, "row", "no-gutters"], [1, "col-2"], [1, "logo"], [1, "col-8", "text-center"], [1, "carritoInfo"], [1, "fas", "fa-shopping-cart"], [1, "carritocount"]], template: function BarraInfoComponent_Template(rf, ctx) { if (rf & 1) {
+BarraInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarraInfoComponent, selectors: [["app-barra-info"]], decls: 13, vars: 1, consts: [[1, "container-fluid", "barrainformativa"], [1, "row", "no-gutters"], [1, "col-2"], [1, "logo"], [1, "col-8", "text-center"], [1, "carritoInfo"], [1, "btn", "btn-link", 3, "click"], [1, "fas", "fa-shopping-cart"], [1, "carritocount"]], template: function BarraInfoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -207,16 +213,19 @@ BarraInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "i", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BarraInfoComponent_Template_button_click_9_listener() { return ctx.enviarMensaje(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "span", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.carritoservice.cantidad);
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmFycmEtaW5mby9iYXJyYS1pbmZvLmNvbXBvbmVudC5zY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BarraInfoComponent, [{
@@ -274,7 +283,7 @@ class EncabezadoComponent {
             {
                 colores: ['#da4e4e', '#f1de00', '#aaaaaa'],
                 fotoUrl: 'assets\/images\/ropa02.jpg',
-                nombre: 'Bikini ',
+                nombre: 'Bikini Gris',
                 precio: 1500,
                 id: "2",
                 sizes: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -283,7 +292,7 @@ class EncabezadoComponent {
             {
                 colores: [],
                 fotoUrl: 'assets\/images\/ropa04.jpg',
-                nombre: 'Bikini ',
+                nombre: 'Bikini Multicolor',
                 precio: 1500,
                 id: "4",
                 sizes: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -292,7 +301,7 @@ class EncabezadoComponent {
             {
                 colores: [],
                 fotoUrl: 'assets\/images\/ropa05.jpg',
-                nombre: 'Bikini ',
+                nombre: 'Bikini Gris 2',
                 precio: 1500,
                 id: "5",
                 sizes: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -301,7 +310,7 @@ class EncabezadoComponent {
             {
                 colores: [],
                 fotoUrl: 'assets\/images\/ropa03.jpg',
-                nombre: 'Leopardo',
+                nombre: 'Bikini Leopardo',
                 precio: 2300,
                 id: "3",
                 sizes: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -901,6 +910,16 @@ class CarritoService {
     }
     get cantidad() {
         return this.carrito.length;
+    }
+    getMensajeWsapp() {
+        let msg = "Hola!, quisiera comprarte estos productos: %0a%0a";
+        let total = 0;
+        for (let i = 0; i < this.carrito.length; i++) {
+            msg += ("%0a" + this.carrito[i].nombre);
+            total += this.carrito[i].precio;
+        }
+        msg += "%0a%0aPor un total de: *$ " + total + "*";
+        return "https://wa.me/5493415473805?text=" + msg;
     }
 }
 CarritoService.ɵfac = function CarritoService_Factory(t) { return new (t || CarritoService)(); };
