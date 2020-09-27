@@ -1,0 +1,1330 @@
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
+  /***/
+  "../../modules/@commonLib/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts":
+  /*!************************************************************************************************************************************************************************************!*\
+    !*** C:/Users/angel.lubenov/Documents/tmp/comunidad creativa/interra/modules/@commonLib/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts ***!
+    \************************************************************************************************************************************************************************************/
+
+  /*! exports provided: SeccionServiciosyDiferencialesComponent */
+
+  /***/
+  function modulesCommonLibComponentsSeccionServiciosyDiferencialesSeccionServiciosyDiferencialesComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SeccionServiciosyDiferencialesComponent", function () {
+      return SeccionServiciosyDiferencialesComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var SeccionServiciosyDiferencialesComponent = /*#__PURE__*/function () {
+      function SeccionServiciosyDiferencialesComponent() {
+        _classCallCheck(this, SeccionServiciosyDiferencialesComponent);
+      }
+
+      _createClass(SeccionServiciosyDiferencialesComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return SeccionServiciosyDiferencialesComponent;
+    }();
+
+    SeccionServiciosyDiferencialesComponent.ɵfac = function SeccionServiciosyDiferencialesComponent_Factory(t) {
+      return new (t || SeccionServiciosyDiferencialesComponent)();
+    };
+
+    SeccionServiciosyDiferencialesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: SeccionServiciosyDiferencialesComponent,
+      selectors: [["app-seccion-serviciosy-diferenciales"]],
+      decls: 139,
+      vars: 0,
+      consts: [[1, "container-fluid", "mainblock-servicios"], [1, "container"], [1, "row"], [1, "col-md-1"], [1, "row", "seccion-servicios"], [1, "col-lg-3", "col-md-6"], ["src", "assets/images/casino-cctv.png"], ["src", "assets/images/alarm.png"], ["src", "assets/images/water-tap.png"], ["src", "assets/images/road.png"], ["src", "assets/images/forest.png"], ["src", "assets/images/wireless-router.png"], ["src", "assets/images/electricity-tower.png"], ["src", "assets/images/car.png"], ["src", "assets/images/lamp.png"], ["src", "assets/images/road2.png"], [1, "col"], [1, "row", "seccion-diferenciales", "justify-content-md-center"], [1, "col-lg-5"], [1, "acordion-title"], ["href", "#parqueagroecologico", "data-toggle", "collapse"], [1, "fas", "fa-arrow-down"], ["id", "parqueagroecologico", 1, "collapse"], [1, "acordion-content"], ["href", "#lotesverdes", "data-toggle", "collapse"], ["id", "lotesverdes", 1, "collapse"], ["href", "#parquefrutal", "data-toggle", "collapse"], ["id", "parquefrutal", 1, "collapse"], ["href", "#ecocentro", "data-toggle", "collapse"], ["id", "ecocentro", 1, "collapse"], ["href", "#areadeportiva", "data-toggle", "collapse"], ["id", "areadeportiva", 1, "collapse"], [1, "col-lg-2"], ["href", "#huertasurbanas", "data-toggle", "collapse"], ["id", "huertasurbanas", 1, "collapse"], ["href", "#areacorporativa", "data-toggle", "collapse"], ["id", "areacorporativa", 1, "collapse"], ["href", "#invernaderosyferia", "data-toggle", "collapse"], ["id", "invernaderosyferia", 1, "collapse"], ["href", "#areacomercialacieloabierto", "data-toggle", "collapse"], ["id", "areacomercialacieloabierto", 1, "collapse"]],
+      template: function SeccionServiciosyDiferencialesComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Servicios");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "hr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Seguridad");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "img", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Alarma");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Agua potable");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Cord\xF3n cuneta");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Forestaci\xF3n");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Wifi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Red de media");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Ripio estabilizado");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Alumbrado");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Asfalto");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "h2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Diferenciales");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "hr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "PARQUE AGROECOL\xD3GICO");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Gran circuito verde donde el alma del barrio se hace presente.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Se propone como intervenci\xF3n estructural un parque agroecol\xF3gico destinado a delimitar distintas zonas y usos en el proyecto a lo largo y ancho de su recorrido, de manera que, perimetralmente, contenga al barrio en todo su conjunto.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "a", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "LOTES VERDES");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Los mismos est\xE1n destinados a establecer pautas y caracter\xEDsticas constructivas sostenibles y tecnol\xF3gicas para las viviendas. Esto incluye, recolecci\xF3n de agua, paneles fotovoltaicos, recolecci\xF3n y separaci\xF3n de desechos, entre muchos otros diferenciales. Frente a estos lotes se ubican huertas urbanas equipadas con invernaderos y p\xE9rgolas designados a generar ferias temporales para la comercializaci\xF3n de cultivos.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "a", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "PARQUE FRUTAL");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Espacio dedicado al emplazamiento de decenas de \xE1rboles de especies frutales que garantizan la biodiversidad del conjunto y otorgan la posibilidad de acceder a sus frutos.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "a", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "ECOCENTRO");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](90, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "Un espacio con el fin de capacitar a la comunidad, vecinos, cooperativas, escuelas, ONGs, etc., en el cuidado del medio ambiente y la producci\xF3n de huertas urbanas, bajo el lema de consumir lo que se produce y su comercializaci\xF3n en el sistema de cadena corta, es decir el comercio desde huerta al vecino sin qu\xEDmicos y sin intermediarios.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Por otra parte este sector cumplir\xE1 la funci\xF3n de administrar y mantener los servicios del barrio. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "a", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "AREA DEPORTIVA");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](100, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Espacio abierto dise\xF1ado para el entretenimiento y la pr\xE1ctica deportiva, inmerso en un hermoso parque verde.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](105, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "div", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "a", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "HUERTAS URBANAS");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Impulsamos la conformaci\xF3n y desarrollo de cooperativas de producci\xF3n a trav\xE9s de microemprendimientos internos que generen procesos participativos de cadena corta, bajo un ciclo continuo de vivir, sembrar, cultivar, vender, consumir, reciclar.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "a", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "\xC1REA CORPORATIVA");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Sobre el frente de Ruta 16 se disponen lotes corporativos de 1000m2 y 500m2 destinados a comercios, oficinas y almacenes de escala media generando un sistema de auto-abastecimiento interna y externo, cubriendo las necesidades del entorno inmediato.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "a", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "INVERNADEROS Y FERIA");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Infraestructura instalada para la generaci\xF3n de ferias de productores para impulsar el abastecimiento e invernaderos para el cultivo permanente de especies vegetales para consumo alimenticio.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "a", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "AREA COMERCIAL A CIELO ABIERTO");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "i", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "En el coraz\xF3n del barrio se dispone de una plaza cultural con locales comerciales que ser\xE1n el abastecimiento para de la vida cotidiana del barrio.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi8uLi9tb2R1bGVzL0Bjb21tb25MaWIvY29tcG9uZW50cy9zZWNjaW9uLXNlcnZpY2lvc3ktZGlmZXJlbmNpYWxlcy9zZWNjaW9uLXNlcnZpY2lvc3ktZGlmZXJlbmNpYWxlcy5jb21wb25lbnQuc2NzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SeccionServiciosyDiferencialesComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-seccion-serviciosy-diferenciales',
+          templateUrl: './seccion-serviciosy-diferenciales.component.html',
+          styleUrls: ['./seccion-serviciosy-diferenciales.component.scss']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./$$_lazy_route_resource lazy recursive":
+  /*!******************************************************!*\
+    !*** ./$$_lazy_route_resource lazy namespace object ***!
+    \******************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function $$_lazy_route_resourceLazyRecursive(module, exports) {
+    function webpackEmptyAsyncContext(req) {
+      // Here Promise.resolve().then() is used instead of new Promise() to prevent
+      // uncaught exception popping up in devtools
+      return Promise.resolve().then(function () {
+        var e = new Error("Cannot find module '" + req + "'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+      });
+    }
+
+    webpackEmptyAsyncContext.keys = function () {
+      return [];
+    };
+
+    webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+    module.exports = webpackEmptyAsyncContext;
+    webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+    /***/
+  },
+
+  /***/
+  "./src/app/app-routing.module.ts":
+  /*!***************************************!*\
+    !*** ./src/app/app-routing.module.ts ***!
+    \***************************************/
+
+  /*! exports provided: AppRoutingModule */
+
+  /***/
+  function srcAppAppRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function () {
+      return AppRoutingModule;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _pages_start_start_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./pages/start/start.component */
+    "./src/app/pages/start/start.component.ts");
+
+    var routes = [{
+      path: "",
+      component: _pages_start_start_component__WEBPACK_IMPORTED_MODULE_2__["StartComponent"]
+    }];
+
+    var AppRoutingModule = function AppRoutingModule() {
+      _classCallCheck(this, AppRoutingModule);
+    };
+
+    AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
+      type: AppRoutingModule
+    });
+    AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
+      factory: function AppRoutingModule_Factory(t) {
+        return new (t || AppRoutingModule)();
+      },
+      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+    });
+
+    (function () {
+      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+      });
+    })();
+    /*@__PURE__*/
+
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppRoutingModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
+          exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+        }]
+      }], null, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/app.component.ts":
+  /*!**********************************!*\
+    !*** ./src/app/app.component.ts ***!
+    \**********************************/
+
+  /*! exports provided: AppComponent */
+
+  /***/
+  function srcAppAppComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AppComponent", function () {
+      return AppComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+    var AppComponent = function AppComponent() {
+      _classCallCheck(this, AppComponent);
+
+      this.title = 'front-app';
+    };
+
+    AppComponent.ɵfac = function AppComponent_Factory(t) {
+      return new (t || AppComponent)();
+    };
+
+    AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: AppComponent,
+      selectors: [["app-root"]],
+      decls: 1,
+      vars: 0,
+      template: function AppComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "router-outlet");
+        }
+      },
+      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]],
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-root',
+          templateUrl: './app.component.html',
+          styleUrls: ['./app.component.scss']
+        }]
+      }], null, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/app.module.ts":
+  /*!*******************************!*\
+    !*** ./src/app/app.module.ts ***!
+    \*******************************/
+
+  /*! exports provided: AppModule */
+
+  /***/
+  function srcAppAppModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AppModule", function () {
+      return AppModule;
+    });
+    /* harmony import */
+
+
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/platform-browser */
+    "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./app-routing.module */
+    "./src/app/app-routing.module.ts");
+    /* harmony import */
+
+
+    var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./app.component */
+    "./src/app/app.component.ts");
+    /* harmony import */
+
+
+    var _commonLib_components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @commonLib/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component */
+    "../../modules/@commonLib/components/seccion-serviciosy-diferenciales/seccion-serviciosy-diferenciales.component.ts");
+    /* harmony import */
+
+
+    var _pages_start_start_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./pages/start/start.component */
+    "./src/app/pages/start/start.component.ts");
+    /* harmony import */
+
+
+    var _components_splash_splash_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./components/splash/splash.component */
+    "./src/app/components/splash/splash.component.ts");
+    /* harmony import */
+
+
+    var _components_presentacion_presentacion_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./components/presentacion/presentacion.component */
+    "./src/app/components/presentacion/presentacion.component.ts");
+
+    var AppModule = function AppModule() {
+      _classCallCheck(this, AppModule);
+    };
+
+    AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+      type: AppModule,
+      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+    });
+    AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+      factory: function AppModule_Factory(t) {
+        return new (t || AppModule)();
+      },
+      providers: [],
+      imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]]]
+    });
+
+    (function () {
+      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _commonLib_components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_4__["SeccionServiciosyDiferencialesComponent"], _pages_start_start_component__WEBPACK_IMPORTED_MODULE_5__["StartComponent"], _components_splash_splash_component__WEBPACK_IMPORTED_MODULE_6__["SplashComponent"], _components_presentacion_presentacion_component__WEBPACK_IMPORTED_MODULE_7__["PresentacionComponent"]],
+        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]]
+      });
+    })();
+    /*@__PURE__*/
+
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+        args: [{
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _commonLib_components_seccion_serviciosy_diferenciales_seccion_serviciosy_diferenciales_component__WEBPACK_IMPORTED_MODULE_4__["SeccionServiciosyDiferencialesComponent"], _pages_start_start_component__WEBPACK_IMPORTED_MODULE_5__["StartComponent"], _components_splash_splash_component__WEBPACK_IMPORTED_MODULE_6__["SplashComponent"], _components_presentacion_presentacion_component__WEBPACK_IMPORTED_MODULE_7__["PresentacionComponent"]],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]],
+          providers: [],
+          bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+        }]
+      }], null, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/presentacion/presentacion.component.ts":
+  /*!*******************************************************************!*\
+    !*** ./src/app/components/presentacion/presentacion.component.ts ***!
+    \*******************************************************************/
+
+  /*! exports provided: PresentacionComponent */
+
+  /***/
+  function srcAppComponentsPresentacionPresentacionComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PresentacionComponent", function () {
+      return PresentacionComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var PresentacionComponent = /*#__PURE__*/function () {
+      function PresentacionComponent() {
+        _classCallCheck(this, PresentacionComponent);
+
+        this.anchorId = 'presentacion';
+      }
+
+      _createClass(PresentacionComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return PresentacionComponent;
+    }();
+
+    PresentacionComponent.ɵfac = function PresentacionComponent_Factory(t) {
+      return new (t || PresentacionComponent)();
+    };
+
+    PresentacionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: PresentacionComponent,
+      selectors: [["app-presentacion"]],
+      inputs: {
+        anchorId: "anchorId"
+      },
+      decls: 33,
+      vars: 1,
+      consts: [[1, "container", "interra-presentacion", "pt-5", "pb-5"], [1, "row", "cotizacion", "pt-5", "pb-5", "align-items-center"], [1, "col-1"], ["src", "assets/images/fee-icon.png"], [1, "col-4", "c-info"], [1, "m2"], [1, "col-3", "c-valor", "align-self-end"], [1, "fas", "fa-long-arrow-alt-up"], [1, "fas", "fa-long-arrow-alt-down"], [1, "col-1", "c-help"], [1, "far", "fa-question-circle"], [1, "row", "align-items-center", "pb-5"], [1, "col-7"], [1, "col-5"], ["src", "assets/images/brick.svg", 1, "img-fluid"], [1, "row", "pb-5"], [1, "col"], [1, "btn", "btn-primary", "btn-block"], [1, "fas", "fa-arrow-alt-circle-right"], [1, "btn", "btn-outline-secondary", "btn-block"]],
+      template: function PresentacionComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Hoy");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Metro Cuadrado");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " $8.579 ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "i", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Invert\xED hoy en tu futuro");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Compr\xE1 en m");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "sup");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " de tierra e invert\xED a tu ritmo en tu proyecto de hogar.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "img", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "button", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Empezar ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "i", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "button", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "\xBFC\xF3mo funciona?");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("id", ctx.anchorId);
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJlc2VudGFjaW9uL3ByZXNlbnRhY2lvbi5jb21wb25lbnQuc2NzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PresentacionComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-presentacion',
+          templateUrl: './presentacion.component.html',
+          styleUrls: ['./presentacion.component.scss']
+        }]
+      }], function () {
+        return [];
+      }, {
+        anchorId: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }]
+      });
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/splash/splash.component.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/splash/splash.component.ts ***!
+    \*******************************************************/
+
+  /*! exports provided: SplashComponent */
+
+  /***/
+  function srcAppComponentsSplashSplashComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SplashComponent", function () {
+      return SplashComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var _c0 = ["nextSectionComponent"];
+
+    var SplashComponent = /*#__PURE__*/function () {
+      function SplashComponent() {
+        _classCallCheck(this, SplashComponent);
+
+        this.anchorId = 'splash';
+        this.nextSectionId = '';
+      }
+
+      _createClass(SplashComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }, {
+        key: "ngAfterViewInit",
+        value: function ngAfterViewInit() {
+          var _this = this;
+
+          this.timeoutHandler = setTimeout(function () {
+            _this.nextSectionComponent.nativeElement.click();
+          }, 2500);
+        }
+      }, {
+        key: "disableTimeoutHandler",
+        value: function disableTimeoutHandler(e) {
+          if (this.timeoutHandler) {
+            clearTimeout(this.timeoutHandler);
+          }
+        }
+      }]);
+
+      return SplashComponent;
+    }();
+
+    SplashComponent.ɵfac = function SplashComponent_Factory(t) {
+      return new (t || SplashComponent)();
+    };
+
+    SplashComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: SplashComponent,
+      selectors: [["app-splash"]],
+      viewQuery: function SplashComponent_Query(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, true);
+        }
+
+        if (rf & 2) {
+          var _t;
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.nextSectionComponent = _t.first);
+        }
+      },
+      inputs: {
+        anchorId: "anchorId",
+        nextSectionId: "nextSectionId"
+      },
+      decls: 6,
+      vars: 1,
+      consts: [[1, "container", "interra-splash"], [1, "row", "text-center", "align-items-center", "h-100"], [1, "col"], [3, "click"], ["nextSectionComponent", ""], ["src", "assets/images/logo.svg"]],
+      template: function SplashComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 3, 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SplashComponent_Template_a_click_3_listener($event) {
+            return ctx.disableTimeoutHandler($event);
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("href", "#" + ctx.nextSectionId, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc3BsYXNoL3NwbGFzaC5jb21wb25lbnQuc2NzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SplashComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-splash',
+          templateUrl: './splash.component.html',
+          styleUrls: ['./splash.component.scss']
+        }]
+      }], function () {
+        return [];
+      }, {
+        anchorId: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }],
+        nextSectionId: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }],
+        nextSectionComponent: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+          args: ['nextSectionComponent']
+        }]
+      });
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/pages/start/start.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/pages/start/start.component.ts ***!
+    \************************************************/
+
+  /*! exports provided: StartComponent */
+
+  /***/
+  function srcAppPagesStartStartComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "StartComponent", function () {
+      return StartComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _components_splash_splash_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ../../components/splash/splash.component */
+    "./src/app/components/splash/splash.component.ts");
+    /* harmony import */
+
+
+    var _components_presentacion_presentacion_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../components/presentacion/presentacion.component */
+    "./src/app/components/presentacion/presentacion.component.ts");
+
+    var StartComponent = /*#__PURE__*/function () {
+      function StartComponent() {
+        _classCallCheck(this, StartComponent);
+      }
+
+      _createClass(StartComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return StartComponent;
+    }();
+
+    StartComponent.ɵfac = function StartComponent_Factory(t) {
+      return new (t || StartComponent)();
+    };
+
+    StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: StartComponent,
+      selectors: [["app-start"]],
+      decls: 2,
+      vars: 2,
+      consts: [[3, "nextSectionId"], [3, "anchorId"]],
+      template: function StartComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-splash", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-presentacion", 1);
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("nextSectionId", "presentacion");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("anchorId", "presentacion");
+        }
+      },
+      directives: [_components_splash_splash_component__WEBPACK_IMPORTED_MODULE_1__["SplashComponent"], _components_presentacion_presentacion_component__WEBPACK_IMPORTED_MODULE_2__["PresentacionComponent"]],
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5zY3NzIn0= */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StartComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-start',
+          templateUrl: './start.component.html',
+          styleUrls: ['./start.component.scss']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/environments/environment.ts":
+  /*!*****************************************!*\
+    !*** ./src/environments/environment.ts ***!
+    \*****************************************/
+
+  /*! exports provided: environment */
+
+  /***/
+  function srcEnvironmentsEnvironmentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "environment", function () {
+      return environment;
+    }); // This file can be replaced during build by using the `fileReplacements` array.
+    // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+    // The list of file replacements can be found in `angular.json`.
+
+
+    var environment = {
+      production: false
+    };
+    /*
+     * For easier debugging in development mode, you can import the following file
+     * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+     *
+     * This import should be commented out in production mode because it will have a negative impact
+     * on performance if an error is thrown.
+     */
+    // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+    /***/
+  },
+
+  /***/
+  "./src/main.ts":
+  /*!*********************!*\
+    !*** ./src/main.ts ***!
+    \*********************/
+
+  /*! no exports provided */
+
+  /***/
+  function srcMainTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./app/app.module */
+    "./src/app/app.module.ts");
+    /* harmony import */
+
+
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/platform-browser */
+    "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+
+    if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production) {
+      Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+    }
+
+    _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])["catch"](function (err) {
+      return console.error(err);
+    });
+    /***/
+
+  },
+
+  /***/
+  0:
+  /*!***************************!*\
+    !*** multi ./src/main.ts ***!
+    \***************************/
+
+  /*! no static exports found */
+
+  /***/
+  function _(module, exports, __webpack_require__) {
+    module.exports = __webpack_require__(
+    /*! C:\Users\angel.lubenov\Documents\tmp\comunidad creativa\interra\projects\front-app\src\main.ts */
+    "./src/main.ts");
+    /***/
+  }
+}, [[0, "runtime", "vendor"]]]);
+//# sourceMappingURL=main-es5.js.map
